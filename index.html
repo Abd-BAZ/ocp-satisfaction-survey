@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OCP Satisfaction Survey</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>OCP Satisfaction Survey</h1>
+    <p>We’d love to hear your feedback! Please rate your experience below.</p>
+
+    <form id="satisfactionForm">
+      <div class="rating-options">
+        <label>
+          <input type="radio" name="satisfaction" value="1" required />
+          1 - Very Dissatisfied
+        </label>
+        <label>
+          <input type="radio" name="satisfaction" value="2" />
+          2 - Dissatisfied
+        </label>
+        <label>
+          <input type="radio" name="satisfaction" value="3" />
+          3 - Neutral
+        </label>
+        <label>
+          <input type="radio" name="satisfaction" value="4" />
+          4 - Satisfied
+        </label>
+        <label>
+          <input type="radio" name="satisfaction" value="5" />
+          5 - Very Satisfied
+        </label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="responseMessage"></div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
